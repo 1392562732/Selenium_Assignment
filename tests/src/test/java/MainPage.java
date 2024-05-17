@@ -12,9 +12,6 @@ public class MainPage extends PageBase {
     private By cookieConsentButtonLocator = By.xpath("/html/body/div[2]/div[2]/div[1]/div[2]/div[2]/button[1]/p");
     private By freeEbooksLocator = By.xpath("//li/a[contains(text(), 'Free Ebooks')]");
     private By freeMachineLearningEbooksLocator = By.xpath("//*[@id='menu-item-7132']");
-    /*private By footerLocator = By.xpath("//div[contains(@class, 'footer-block')]");
-    private By searchBarOpenButtonLocator = By.className("search-bar-toggler");
-    private By searchBarLocator = By.name("search");*/
 
     public MainPage(WebDriver driver) {
         super(driver);

@@ -15,11 +15,6 @@ public class PageBase {
 
     protected By bodyLocator = By.tagName("body");
     
-    /*private By usernameLocator = By.name("username");
-    private By passwordLocator = By.name("password");
-    private By signinButtonLocator = By.className("fa-sign-in");
-    private By logoutButtonLocator = By.className("icon-signout");*/
-
     public PageBase(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
