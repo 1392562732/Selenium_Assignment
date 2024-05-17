@@ -4,3 +4,6 @@ Please upload the photo to docker before running:
 
 ### Test Website:
 https://www.globalsqa.com/
+
+### Test Report:
+https://1392562732.github.io/Selenium_Report/
